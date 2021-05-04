@@ -12,4 +12,4 @@ moonZoomInTL.to(".moon-things",{duration:1, alpha:0})
 export let moonZoomOutTL = gsap.timeline();
 moonZoomOutTL.to("#moon",{duration:3, scale:2, y:"+=-1000"},"sametime")
             .to("#space-ship",{duration:3, scale:.5, y:"+=-450" , x:"+=-240"},"sametime")
-            .to(".moon-things",{duration:1, alpha:1}) 
+            .to(".moon-things",{duration:1, alpha:1});
